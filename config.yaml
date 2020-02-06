@@ -43,3 +43,4 @@ menu:
   - name: RSS
     url: index.xml
     weight: 5
+theme: hugo-flex
