@@ -17,8 +17,8 @@ theme = "ezhil"
 
    [[menu.main]]
     identifier = "posts"
-    name = "Post"
-    url = "/post/"
+    name = "Posts"
+    url = "/posts/"
     weight = 2
 
        [[menu.main]]
