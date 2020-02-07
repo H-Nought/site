@@ -7,6 +7,8 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme = "ezhil"
+disqusShortname = "hnought-github-io"
+
 [menu]
 
   [[menu.main]]
@@ -15,25 +17,25 @@ theme = "ezhil"
     url = "/about"
     weight = 1
 
-   [[menu.main]]
+  [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
     weight = 2
 
-       [[menu.main]]
+  [[menu.main]]
     identifier = "publications"
     name = "Publications"
     url = "/publications/"
     weight = 3
 
-       [[menu.main]]
+  [[menu.main]]
     identifier = "talks"
     name = "Talks"
     url = "/talks/"
     weight = 4
 
-        [[menu.main]]
+  [[menu.main]]
     identifier = "oss"
     name = "OSS"
     url = "/oss/"
