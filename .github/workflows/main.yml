@@ -11,10 +11,11 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
-        with: 
-          submodules: true
-          token: secret
-
+      - name: Checkout theme
+        uses: actions/checkout@v2
+        with:
+          repository: HNought/custom-ezhil
+          path: themes/ezhil
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
