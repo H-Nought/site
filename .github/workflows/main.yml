@@ -19,7 +19,7 @@ jobs:
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: 0.57.2
+          HUGO_VERSION: 0.64.0
           TARGET_REPO: HNought/HNought.github.io
           ACCESS_TOKEN: ${{ secrets.hnought }}
           HUGO_ARGS: ''
