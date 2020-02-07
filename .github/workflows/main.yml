@@ -17,6 +17,6 @@ jobs:
         env:
           HUGO_VERSION: 0.57.2
           TARGET_REPO: HNought/HNought.github.io
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: secret
           HUGO_ARGS: ''
           CNAME: HNought.github.io
