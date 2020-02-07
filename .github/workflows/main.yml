@@ -27,7 +27,7 @@ jobs:
       run: hugo --gc --minify --cleanDestinationDir
 
     - name: Deploy
-      uses: HNought/Hnought.github.io
+      uses: HNought/Hnought.github.io@master
       with:
           deploy_key: ${{ secrets.hnought }}
           publish_dir: ./public
