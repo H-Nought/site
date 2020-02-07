@@ -1,26 +1,33 @@
-name: Push to HNought
+name: github pages
+
 on:
   push:
     branches:
-      - master
+    - master
 
 jobs:
-  build:
-    name: Deploy
-    runs-on: ubuntu-latest
+  build-deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v1
-      - name: Checkout theme
-        uses: actions/checkout@v2
-        with:
+    - uses: actions/checkout@master
+      
+    - name: Checkout theme
+      uses: actions/checkout@v2
+      with:
           repository: HNought/custom_ezhil
           path: themes/ezhil
-      - name: Deploy the site
-        uses: benmatselby/hugo-deploy-gh-pages@master
-        env:
-          HUGO_VERSION: 0.64.0
-          TARGET_REPO: HNought/HNought.github.io
-          ACCESS_TOKEN: ${{ secrets.hnought }}
-          HUGO_ARGS: ''
-          CNAME: HNought.github.io
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.0
+      with:
+        hugo-version: '0.58.3'
+
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.4.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.hnought }}
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./public
