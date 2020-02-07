@@ -1,5 +1,5 @@
 [submodule "themes/hugo-flex"]
-	path = themes/hugo-flex
+	path = themes/ezhil
 	url = git@github.com:HNought/custom_ezhil.git
 
 [submodule "public"]
