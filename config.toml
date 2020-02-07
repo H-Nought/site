@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://github.com/HNought/HNought.github.io/"
 title = "HNought"
 author = "Raghava"
 paginate = 3
@@ -41,7 +41,7 @@ disqusShortname = "hnought-github-io"
     url = "/oss/"
     weight = 5
 
-      [[menu.main]]
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
