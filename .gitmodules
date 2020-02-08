@@ -1,4 +1,4 @@
-[submodule "themes/hugo-flex"]
+[submodule "themes/ezhil"]
 	path = themes/ezhil
 	url = git@github.com:HNought/custom_ezhil.git
 
