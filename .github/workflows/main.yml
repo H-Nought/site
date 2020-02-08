@@ -1,0 +1,35 @@
+name: github pages
+
+on:
+  push:
+    branches:
+    - master
+
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+      
+    - name: Checkout theme
+      uses: actions/checkout@v2
+      with:
+          repository: HNought/custom_ezhil
+          path: themes/ezhil
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.0
+      with:
+        hugo-version: '0.58.3'
+
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          deploy_key: ${{ secrets.hnought }}
+          external_repository: HNought/Hnought.github.io
+          publish_dir: ./public
+          publish_branch: master

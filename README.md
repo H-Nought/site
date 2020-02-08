@@ -4,11 +4,8 @@ git clone --recurse-submodules git@github.com:HNought/site.git HNought
 cd HNought
 hugo new content/posts/gramhical_models.md
 Hugo 
-cd public
+Launch hugo server to view the page on local machine
+(changes made to themes must be seperately checkin)
 git commit -m "first change"
-
-if you make changes to theme make sure to checkin that as well
-
-cd ..
-git commit -m "changes to outer folder"
+git push origin master
 ```
