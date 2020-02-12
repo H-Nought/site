@@ -8,23 +8,10 @@ disqus= false
 removedate= true
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+We are an independent group of engineers from math /cs/ physcis background. Started this initiative as a way to reach out to like minded people for promoting independent research and learning which is a difficut proposition in Delhi NCR. Especially for enterprise audience based out of Delhi NCR there has not been a great platform for nurturing research work. We can know more about us through our [github team page ](https://github.com/orgs/HNought/teams/core).
 
-Hugo makes use of a variety of open source projects including:
+We are mainly intersted in areas around AI/ML/Causation/Bayesian Networks theory and applicaitons. But we donot intend to restrict ourselves to a closed domain but want to look at this group as platform for any applied /engineering problems ,from as diverse as linear dynamic systems to VC theory every thing is welcome.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+If you are young researcher looking for guidance or veteran willing to mentor but cant find time to execute this is a great place to start. Interns can look for good opportunties for good research work.
 
 

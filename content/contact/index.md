@@ -38,3 +38,6 @@ removedate = true
 <br/><br/>
 {{< /rawhtml >}}
 
+
+You could also track our talks and other oss activites on [github project page](https://github.com/orgs/HNought/teams/core/projects) 
+
