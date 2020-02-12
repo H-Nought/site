@@ -39,5 +39,6 @@ removedate = true
 {{< /rawhtml >}}
 
 
-You could also track our talks and other oss activites on [github project page](https://github.com/orgs/HNought/teams/core/projects) 
+You could also track our talks and other oss activites on [github project page](https://github.com/orgs/HNought/teams/core/projects) .
 
+Follow our material on [youtube channel](https://www.youtube.com/channel/UC8XdkiTV21fA_-jIpXz_Gww?view_as=subscriber)
