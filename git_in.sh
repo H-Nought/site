@@ -3,6 +3,12 @@ if [ "$1" == "" ] || [ $# -gt 1 ]; then
 	exit 1
 fi
 
+hugo
+cd public
+git add .
+git commit -m "$1"
+git push origin master
+cd ..
 
 cd themes/ezhil
 git add .
